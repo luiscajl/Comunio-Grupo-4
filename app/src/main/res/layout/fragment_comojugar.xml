@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grass"
+    tools:context="com.ps.comunio.fragmentjugar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="285dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="\nEl objetivo del juego es acumular el máximo de puntos en tu comunidad.  Todos los jugadores de una comunidad compiten entre ellos."
+            android:id="@+id/text1" />
+
+        <TextView
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="\nCada miembro recibe desde el principio un equipo con 15 jugadores de la Liga BBVA y un presupuesto valorado en 20 millones de EUR , o empieza sin jugadores y recibe un presupuesto valorado en 40 millones de EUR."
+            android:id="@+id/text2"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/text3"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="\nDespués de cada jornada, serán distribuidos puntos a cada jugador de tu equipo. La puntuación es calculada por el ordenador según una serie de criterios, incluyendo goles, tarjetas amarillas y rojas y el análisis de un columnista deportivo.(vgl. Reglas). Cada miembro intenta mejorar su presupuesto y su equipo comprando y vendiendo jugadores. No son suficientes tan sólo conocimientos futbolísticos, sino también habilidades financieras y diplomáticas, pues cada jugador existe solamente una vez en la comunidad, por lo que habrá que negociar con los otros miembros de la comunidad o con el ordenador." />
+    </LinearLayout>
+
+
+
+</FrameLayout>

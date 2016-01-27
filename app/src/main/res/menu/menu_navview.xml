@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inicio"
+            android:icon="@drawable/inicio"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/menu_listJugadores"
+            android:title="Clasificación"
+            android:icon="@drawable/jugadores"
+            />
+        <item
+            android:id="@+id/menu_miEquipo"
+            android:icon="@drawable/equipo"
+            android:title="Mi Equipo"/>
+        <item
+            android:id="@+id/menu_mercado"
+            android:icon="@drawable/mercado"
+            android:title="@string/listEquipos"/>
+
+    </group>
+
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/extras">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_fragmentjugar"
+                android:title="Como Jugar"
+                android:icon="@drawable/como">
+            </item>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/cerrar"
+                android:title="Cerrar sesión"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>

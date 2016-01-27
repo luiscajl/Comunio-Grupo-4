@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Cumunio</string>
+    <string name="action_settings">Settings</string>
+    <string name="Username">Introduce tu usuario:</string>
+    <string name="Contraseña">Introduce tu contraseña:</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_logged_in">Comunio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Uso">Uso</string>
+    <string name="jugadores">Listado Jugadores</string>
+
+    <string name="listEquipos">Mercado</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listJugadores">Jugadores</string>
+    <string name="extras">Extras</string>
+
+    <string name="LogOut">Desconectar</string>
+    <string name="fragment1">Fragmento 1</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_datos_jugador">Datos Jugador</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="title_activity_test_json">TestJson</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_testingbbdd">testingbbdd</string>
+
+
+
+
+
+
+</resources>

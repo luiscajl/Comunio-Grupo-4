@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <item name="android:windowBackground">@drawable/logocomunio</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Overlay</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+    </style>
+
+    ...
+
+    <style name="ActionBar.Overlay"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@drawable/actionbar_translucent</item>
+
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+Applications Memory Usage (kB):
+Uptime: 5219740 Realtime: 5219740
+
+** MEMINFO in pid 16563 [com.ps.comunio] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native     1408      564     1380     7100     7086       13
+       Dalvik    76700    13472    76044    87815    84220     3595
+       Cursor        0        0        0                           
+       Ashmem        0        4        0                           
+    Other dev        4       24        0                           
+     .so mmap     1252     1884      368                           
+    .jar mmap        0        0        0                           
+    .apk mmap      102        0        0                           
+    .ttf mmap       23        0        0                           
+    .dex mmap     2354        0       24                           
+   Other mmap       71       16       68                           
+      Unknown      488       24      488                           
+        TOTAL    82402    15988    78372    94915    91306     3608
+ 
+ Objects
+               Views:       61         ViewRootImpl:        1
+         AppContexts:        2           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:        5        Proxy Binders:       14
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
